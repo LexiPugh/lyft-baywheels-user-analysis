@@ -12,12 +12,14 @@
 
 # Introduction
 
-The lyft.baywheels dataset reports information about rentals made on the Bay Wheels bike share system. Each row represents a single rental; we will be making use of the following fields in this project:
+The purpose of this project is to examine the performance of Lyft's bicycle rental company, Lyft Baywheels, in the city of San Francisco. The rental company was originally Ford GoBike and Lyft bought the company from Ford in March 2020 at the height of the global pandemic. Lyft is now interested to see how they can grow their user base in San Francisco as the lockdown is coming to an end.
+
+The lyft.baywheels dataset reports information about rentals made on the Bay Wheels bike share system. Each row represents a single rental:
 
 - **started_at** - Timestamp for start of rental
 - **started_date** – Date for start of rental
 - **ended_at** - Timestamp for end of rental
--	**start_station_name** - For rentals that started from a bike dock, the name of the dock.
+- **start_station_name** - For rentals that started from a bike dock, the name of the dock.
 - **end_station_name** - For rentals that ended at a bike dock, the name of the dock.
 - **start_lat, start_lng** - Latitude and longitude, respectively, of the start of the rental.
 - **end_lat, end_lng** - Latitude and longitude, respectively, of the end of the rental.
@@ -39,7 +41,7 @@ The ford.gobike dataset has information very similar to the lyft.baywheels table
 | member_casual         |  user_type                  |
 
 
-The sf.weather dataset contains daily weather statistics recorded at SF International Airport through 2020. We will be concerned with the following three features in this project:
+The sf.weather dataset contains daily weather statistics recorded at SF International Airport through 2020:
 
 -	**date** - Date of weather recordings
 -	**temperature_avg** - Average temperature in Fahrenheit
